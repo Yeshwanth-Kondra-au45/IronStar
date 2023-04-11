@@ -137,6 +137,21 @@ body {
 
 }
 
+.react-horizontal-scrolling-menu--scroll-container {
+  display: flex;
+  height: max-content;
+  /* overflow-y: hidden; */
+  position: relative;
+  /* overflow: scroll; */
+  width: 100%;
+  max-width: 50%;
+}
+
+.left-arrow,
+.right-arrow {
+  display: none;
+}
+
 @media screen and (max-width:400px) {
   .exercise-card {
     width: 280px;
